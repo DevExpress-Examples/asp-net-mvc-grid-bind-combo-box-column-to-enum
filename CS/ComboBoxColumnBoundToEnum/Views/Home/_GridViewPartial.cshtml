@@ -1,0 +1,23 @@
+@model IEnumerable<ComboBoxColumnBoundToEnum.Models.Order>
+@{
+    var grid = Html.DevExpress().GridView<ComboBoxColumnBoundToEnum.Models.Order>(settings =>
+    {
+        settings.Name = "GridView1";
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewPartial" };
+
+        settings.KeyFields(m => m.ID);
+
+        settings.Settings.ShowFilterRow = true;
+        settings.Settings.ShowHeaderFilterButton = true;
+        settings.Settings.ShowFilterBar = GridViewStatusBarMode.Visible;
+
+        settings.Columns.Add(m => m.ID);
+        settings.Columns.Add(m => m.Status, column =>
+        {
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            var comboBoxProperties = (ComboBoxProperties)column.PropertiesEdit;
+            comboBoxProperties.DataSource = Enum.GetNames(typeof(ComboBoxColumnBoundToEnum.Models.OrderHelper.OrderStatus));
+        });
+    });
+}
+@grid.Bind(Model).GetHtml()
