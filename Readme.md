@@ -1,4 +1,7 @@
 # GridView - How to bind a combo box column to Enum
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/147419099/)**
+<!-- run online end -->
 
 *Files to look at:*
 * CS
