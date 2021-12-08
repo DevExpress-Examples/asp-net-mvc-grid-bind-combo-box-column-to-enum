@@ -10,11 +10,11 @@
 
 *Files to look at:*
 * CS
-	* [_GridViewPartial.cshtml](https://github.com/DevExpress-Examples/GridView-How-to-bind-a-combo-box-column-to-Enum/blob/17.1.2%2B/CS/ComboBoxColumnBoundToEnum/Views/Home/_GridViewPartial.cshtml)
-	* [Order.cs](https://github.com/DevExpress-Examples/GridView-How-to-bind-a-combo-box-column-to-Enum/blob/17.1.2%2B/CS/ComboBoxColumnBoundToEnum/Models/Order.cs)
+	* [_GridViewPartial.cshtml](./CS/ComboBoxColumnBoundToEnum/Views/Home/_GridViewPartial.cshtml)
+	* [Order.cs](./CS/ComboBoxColumnBoundToEnum/Models/Order.cs)
 * VB
-	* [_GridViewPartial.vbhtml](https://github.com/DevExpress-Examples/GridView-How-to-bind-a-combo-box-column-to-Enum/blob/17.1.2%2B/VB/ComboColumnBoundToEnum/Views/Home/_GridViewPartial.vbhtml)
-	* [Order.vb](https://github.com/DevExpress-Examples/GridView-How-to-bind-a-combo-box-column-to-Enum/blob/17.1.2%2B/VB/ComboColumnBoundToEnum/Models/Order.vb)
+	* [_GridViewPartial.vbhtml](./VB/ComboColumnBoundToEnum/Views/Home/_GridViewPartial.vbhtml)
+	* [Order.vb](./VB/ComboColumnBoundToEnum/Models/Order.vb)
 
 This example illustrates how to bind a combo box column to **Enum** using the [Enum.GetNames](https://docs.microsoft.com/en-us/dotnet/api/system.enum.getnames?view=netframework-4.7.2) method:
 ```csharp
