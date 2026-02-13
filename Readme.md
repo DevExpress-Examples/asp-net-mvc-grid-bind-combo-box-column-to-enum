@@ -27,7 +27,7 @@ settings.Columns.Add(m => m.Status, column => {
 * [_GridViewPartial.cshtml](./CS/ComboBoxColumnBoundToEnum/Views/Home/_GridViewPartial.cshtml) (VB: [_GridViewPartial.vbhtml](./VB/ComboColumnBoundToEnum/Views/Home/_GridViewPartial.vbhtml))
 * [Order.cs](./CS/ComboBoxColumnBoundToEnum/Models/Order.cs) (VB: [Order.vb](./VB/ComboColumnBoundToEnum/Models/Order.vb))
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-grid-bind-combo-box-column-to-enum&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-grid-bind-combo-box-column-to-enum&~~~was_helpful=no)
 
